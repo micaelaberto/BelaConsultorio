@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;1,400;1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Ibarra Real Nova', serif;
+  background-color: #FFF7F2; }
+
+.main .section2 .titulo {
+  font-size: 30px;
+  color: #b3aeb3;
+  text-align: center;
+  margin-top: 50px; }
+
+.main .tituloTr, .main .infoPromos .tituloPr, .main .gridContainerShop .tituloTi, .main .sectionContacto .tituloCon {
+  color: #b3aeb3;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px; }
+
+.main .tratamientos h3 {
+  color: #b3aeb3;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px; }
+
+.main .tratamientos .tratamientosFaciales, .main .tratamientos .tratamientosCorporales, .main .tratamientos .otrosTratamientos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.main .gridContainerShop .contenedorMerc .desmaquillante, .main .gridContainerShop .contenedorMerc .exfoliante, .main .gridContainerShop .contenedorMerc .limpiador {
+  width: 300px;
+  height: 400px;
+  padding: 15px; }
+
+.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto {
+  color: black;
+  font-size: 20px;
+  text-align: center; }
+
+.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio {
+  color: black;
+  font-size: 15px;
+  text-align: center; }
+
+.header {
+  background-color: #fac0b7d8; }
+  .header .navbar {
+    background-color: #fac0b7d8; }
+    .header .navbar .container-fluid {
+      background-color: #fac0b7d8; }
+      .header .navbar .container-fluid .navbar-brand {
+        margin: 10px;
+        padding: 10px; }
+        .header .navbar .container-fluid .navbar-brand .logo {
+          height: 100px;
+          width: 100px; }
+      .header .navbar .container-fluid .navbar-collapse {
+        justify-content: flex-end; }
+        .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+          color: whitesmoke;
+          font-size: 20px; }
+          .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+            color: #999696;
+            font-size: 25px; }
+
+.main .section1 {
+  grid-area: section1; }
+  .main .section1 .banner {
+    height: 350px;
+    background-image: url(../imagenes/imagenIndex.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .main .section1 .banner .nombre {
+      font-style: italic;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 3px 3px gray;
+      color: white; }
+
+.main .section2 {
+  grid-area: section2; }
+  .main .section2 .parrafoIntro .intro {
+    font-size: 20px;
+    color: #b3aeb3;
+    text-align: center;
+    margin: 15px;
+    margin-top: 15px; }
+
+.main .tratamientos {
+  display: flex;
+  flex-direction: column; }
+  .main .tratamientos .tratamientosFaciales .infoFacial {
+    display: block;
+    width: 180px;
+    font-size: 20px;
+    color: #b3aeb3;
+    text-align: center; }
+  .main .tratamientos .tratamientosFaciales .imgFacial {
+    height: 150px; }
+  .main .tratamientos .tratamientosCorporales .infoCorp {
+    display: block;
+    width: 180px;
+    font-size: 20px;
+    color: #b3aeb3;
+    text-align: center; }
+  .main .tratamientos .tratamientosCorporales .imgCorp {
+    height: 150px; }
+  .main .tratamientos .otrosTratamientos .infoOtro {
+    display: block;
+    width: 180px;
+    font-size: 20px;
+    color: #b3aeb3;
+    text-align: center; }
+  .main .tratamientos .otrosTratamientos .imgOtro {
+    height: 150px; }
+
+.main .infoPromos .proximamente {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px; }
+
+.main .gridContainerShop .contenedorMerc {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center; }
+  .main .gridContainerShop .contenedorMerc .desmaquillante {
+    grid-area: desmaquillante; }
+    .main .gridContainerShop .contenedorMerc .desmaquillante .imgDes {
+      height: 300px;
+      width: 300px; }
+  .main .gridContainerShop .contenedorMerc .exfoliante {
+    grid-area: exfoliante; }
+    .main .gridContainerShop .contenedorMerc .exfoliante .imgEx {
+      height: 300px;
+      width: 300px; }
+  .main .gridContainerShop .contenedorMerc .limpiador {
+    grid-area: limpiador; }
+    .main .gridContainerShop .contenedorMerc .limpiador .imgLim {
+      height: 300px;
+      height: 300px; }
+
+.main .sectionContacto .contacto {
+  text-align: center;
+  height: auto;
+  padding: 30px; }
+  .main .sectionContacto .contacto .boton {
+    color: white;
+    background-color: #e6ccc8d8;
+    border: #e6ccc8;
+    margin: 10px; }
+  .main .sectionContacto .contacto .check {
+    color: #b3aeb3; }
+  .main .sectionContacto .contacto input, .main .sectionContacto .contacto textarea {
+    width: 250px;
+    padding: 3px; }
+
+.footer {
+  grid-area: footer;
+  background-color: #fac0b7d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 470px; }
+  .footer .footerCont {
+    display: flex;
+    flex-direction: column; }
+    .footer .footerCont .mapa {
+      width: 300px;
+      height: 300px;
+      padding: 15px; }
+    .footer .footerCont .redes {
+      display: flex;
+      justify-content: space-evenly; }
+      .footer .footerCont .redes .instagram {
+        width: 45px;
+        height: 45px; }
+      .footer .footerCont .redes .facebook {
+        width: 45px;
+        height: 45px; }
+  .footer .copyright {
+    text-align: center;
+    margin-bottom: 10px; }
+
+@media (min-width: 780px) {
+  .header .navbar .container-fluid .navbar-brand .logo {
+    width: 150px;
+    height: 150px; }
+  .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 25px; }
+    .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+      color: #999696;
+      font-size: 30px; } }
+
+@media (min-width: 780px) {
+  .main .section1 .banner {
+    height: 600px; }
+  .main .section2 .parrafoIntro .intro {
+    font-size: 30px;
+    color: #b3aeb3;
+    text-align: center;
+    margin: 15px;
+    margin-top: 15px; } }
+
+@media (min-width: 780px) {
+  .main .tratamientos {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: space-around; }
+    .main .tratamientos h3 {
+      font-size: 30px; }
+    .main .tratamientos .tratamientosFaciales {
+      align-items: center; }
+      .main .tratamientos .tratamientosFaciales .infoFacial {
+        display: block;
+        width: 400px;
+        font-size: 25px;
+        color: #b3aeb3;
+        text-align: center; }
+      .main .tratamientos .tratamientosFaciales .imgFacial {
+        height: 200px; }
+    .main .tratamientos .tratamientosCorporales {
+      align-items: center; }
+      .main .tratamientos .tratamientosCorporales .infoCorp {
+        display: block;
+        width: 400px;
+        font-size: 25px;
+        color: #b3aeb3;
+        text-align: center; }
+      .main .tratamientos .tratamientosCorporales .imgCorp {
+        height: 200px; }
+    .main .tratamientos .otrosTratamientos {
+      align-items: center; }
+      .main .tratamientos .otrosTratamientos .infoOtro {
+        display: block;
+        width: 400px;
+        font-size: 25px;
+        color: #b3aeb3;
+        text-align: center; }
+      .main .tratamientos .otrosTratamientos .imgOtro {
+        height: 200px; } }
+
+@media (min-width: 780px) {
+  .main .gridContainerShop .contenedorMerc {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; }
+    .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto:hover {
+      color: blueviolet;
+      font-size: 30px; }
+    .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio:hover {
+      color: blueviolet;
+      font-size: 25px; }
+    .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto:hover {
+      color: blueviolet;
+      font-size: 30px; }
+    .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio:hover {
+      color: blueviolet;
+      font-size: 25px; }
+    .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto:hover {
+      color: blueviolet;
+      font-size: 30px; }
+    .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio:hover {
+      color: blueviolet;
+      font-size: 25px; } }
+
+@media (min-width: 780px) {
+  .footer .footerCont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .footer .footerCont .redes {
+      display: flex;
+      width: 200px;
+      justify-content: space-evenly; }
+      .footer .footerCont .redes .instagram {
+        width: 70px;
+        height: 70px; }
+        .footer .footerCont .redes .instagram:hover {
+          width: 85px;
+          height: 85px; }
+      .footer .footerCont .redes .facebook {
+        width: 70px;
+        height: 70px; }
+        .footer .footerCont .redes .facebook:hover {
+          width: 85px;
+          height: 85px; } }

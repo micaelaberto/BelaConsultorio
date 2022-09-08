@@ -1,0 +1,23 @@
+1). Se agrego la etiqueta meta keywords en todos los html:
+
+-index: "bela estética, estética, belleza, cambios, cirugia"
+
+-tratamientos: "bela estética, tratamientos faciales, tratamientos corporales, tratamientos "
+
+-promos: "bela estética, promociones, descuentos, planes"
+
+-tienda:"bela estética, tienda, lidherma, productos"
+
+-contacto: "bela estética, contacto, mail, newsletter"
+
+2). Se agrego la etiqueta meta description en todos los html:
+ 
+-index:"Página principal de Bela Estética, a que se dedica."
+
+-tratamientos: "Tratamientos ofrecidos en Bela Estética."
+
+-promos: "Promociones disponibles y actualizadas en Bela Estética."
+
+-tienda:"Productos que podes conseguir en Bela Estética."
+
+-contacto: "Preguntas y contacto con personal de Bela Estética."

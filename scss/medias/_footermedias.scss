@@ -1,0 +1,32 @@
+@media (min-width: 780px) {
+    .footer{
+        .footerCont{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+            .redes{
+                display: flex;
+                width: 200px;
+                justify-content: space-evenly;
+                .instagram{
+                    width: 70px;
+                    height: 70px;
+                    &:hover{
+                        width: 85px;
+                        height: 85px;
+                    }
+                }
+                .facebook{
+                    width: 70px;
+                    height: 70px;
+                    &:hover{
+                        width: 85px;
+                        height: 85px;
+                    }
+                }
+            }
+        }
+    }
+}    

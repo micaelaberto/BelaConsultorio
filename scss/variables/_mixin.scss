@@ -1,0 +1,15 @@
+@mixin estiloInfo ($sizeLetra) {
+    display: block;
+    width: 180px;
+    font-size: $sizeLetra;
+    color: $colorFuente;
+    text-align: center;
+}
+@mixin estiloParrafo ($sizeLetra){
+    font-size: $sizeLetra;
+    color: $colorFuente;
+    text-align: center;
+    margin: 15px;
+    margin-top: 15px;
+}
+

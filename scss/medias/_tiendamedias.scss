@@ -1,0 +1,59 @@
+@media (min-width: 780px) {
+    .main{
+        .gridContainerShop{
+            .contenedorMerc{
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                .desmaquillante{
+                    .infoDes{
+                        .tituloProducto{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 30px;
+                            }
+                        }
+                        .precio{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+                .exfoliante{
+                    .infoEx{
+                        .tituloProducto{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 30px;
+                            }
+                        }
+                        .precio{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+                .limpiador{
+                    .infoLim{
+                        .tituloProducto{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 30px;
+                            }
+                        }
+                        .precio{
+                            &:hover{
+                                color: blueviolet;
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

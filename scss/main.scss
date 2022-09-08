@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #FFF7F2;
+}
+// google fonts
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;1,400;1,700&display=swap');
+
+// variables
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
+
+// secciones
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/tratamientos';
+@import './secciones/promos';
+@import './secciones/tienda';
+@import './secciones/contacto';
+@import './secciones/footer';
+
+// medias-querys
+@import './medias/headermedia';
+@import './medias/indexmedias';
+@import './medias/tratamientosmedias';
+@import './medias/tiendamedias';
+@import './medias/footermedias';

@@ -1,0 +1,26 @@
+.main{
+    .sectionContacto{
+        .tituloCon{
+            @extend %estiloTituloPages;
+        }
+        .contacto{
+            text-align: center;
+            height: auto;
+            padding: 30px;
+            .boton{
+                color: white;
+                background-color:#e6ccc8d8;
+                border:#e6ccc8;
+                margin: 10px; 
+            }
+            .check{
+                color: $colorFuente;
+            }
+            input, textarea{
+                width: 250px;
+                padding: 3px;
+            }
+            
+        }
+    }
+}

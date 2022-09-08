@@ -1,0 +1,16 @@
+@media (min-width: 780px) {
+    .main{
+        .section1{
+            .banner{
+                height: 600px;
+            }
+        }
+        .section2{
+            .parrafoIntro{
+                .intro{
+                    @include estiloParrafo (30px);
+                }
+            }
+        }
+    }
+}

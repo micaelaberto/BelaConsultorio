@@ -1,0 +1,64 @@
+.main{
+    .gridContainerShop{
+        .tituloTi{
+            @extend %estiloTituloPages;
+        }
+        .contenedorMerc{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            flex-direction: column;
+            align-items: center;
+            .desmaquillante{
+                grid-area: desmaquillante;
+                @extend %tamanoTienda;
+                .imgDes{
+                    height: 300px;
+                    width: 300px;
+                }
+                .infoDes{
+                    .tituloProducto{
+                        @extend %tituloProducto;
+                    }
+                    .precio{
+                        @extend %precioProducto;
+                    }
+                }
+            }
+            .exfoliante{
+                grid-area: exfoliante;
+                @extend %tamanoTienda;
+                .imgEx{
+                    height: 300px;
+                    width: 300px;
+                }
+                .infoEx{
+                    .tituloProducto{
+                        @extend %tituloProducto;
+                    }
+                    .precio{
+                        @extend %precioProducto;
+                    }
+                }
+
+            }
+            .limpiador{
+                grid-area: limpiador;
+                @extend %tamanoTienda;
+                .imgLim{
+                    height: 300px;
+                    height: 300px;
+                }
+                .infoLim{
+                    .tituloProducto{
+                        @extend %tituloProducto;
+                    }
+                    .precio{
+                        @extend %precioProducto;
+                    }
+                }
+            }
+        
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@media (min-width: 780px) {
+    .header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    .logo{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+                .navbar-collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .nav-link{
+                                font-size: 25px;
+                                &:hover{
+                                    color: rgb(153, 150, 150);
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

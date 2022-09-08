@@ -1,0 +1,39 @@
+.main{
+    .tituloTr{
+        @extend %estiloTituloPages;
+    }
+    .tratamientos{
+        display: flex;
+        flex-direction: column;
+        h3{
+            @extend %estiloH3;
+        }
+        .tratamientosFaciales{
+            @extend %estiloTratamientos;
+            .infoFacial{
+                @include estiloInfo (20px);
+            }
+            .imgFacial{
+                height: 150px;
+            }
+        }
+        .tratamientosCorporales{
+            @extend %estiloTratamientos;
+            .infoCorp{
+                @include estiloInfo (20px);
+            }
+            .imgCorp{
+                height: 150px;
+            }
+        }
+        .otrosTratamientos{
+            @extend %estiloTratamientos;
+            .infoOtro{
+                @include estiloInfo (20px);;
+            }
+            .imgOtro{
+                height: 150px;
+            }
+        }
+    }
+}

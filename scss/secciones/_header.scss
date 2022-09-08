@@ -1,0 +1,32 @@
+.header{
+    background-color:  $fondoPrimario;
+    .navbar{
+        background-color:  $fondoPrimario;
+        .container-fluid{
+            background-color:  $fondoPrimario;
+            .navbar-brand{
+                margin: 10px;
+                padding: 10px;
+                .logo{
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            color: whitesmoke;
+                            font-size: 20px;
+                            &:hover{
+                                color: rgb(153, 150, 150);
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

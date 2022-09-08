@@ -1,0 +1,29 @@
+.main{
+    .section1{
+        grid-area: section1;
+        .banner{
+            height: 350px;
+            background-image: url(../imagenes/imagenIndex.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            .nombre{
+                font-style: italic;
+                font-size: 50px;
+                text-align: center;
+                text-shadow: 3px 3px gray;
+                color: white;
+            }
+        }
+    }
+    .section2{
+        grid-area: section2;
+        .titulo{
+            @extend %estiloTitulo;
+        }
+        .parrafoIntro{
+            .intro{
+                @include estiloParrafo (20px);
+            }
+        }
+    }
+}
