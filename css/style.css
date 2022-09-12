@@ -51,7 +51,8 @@ body {
 .header {
   background-color: #fac0b7d8; }
   .header .navbar {
-    background-color: #fac0b7d8; }
+    background-color: #fac0b7d8;
+    padding: 0; }
     .header .navbar .container-fluid {
       background-color: #fac0b7d8; }
       .header .navbar .container-fluid .navbar-brand {
