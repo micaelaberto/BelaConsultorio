@@ -36,7 +36,8 @@ body {
 .main .gridContainerShop .contenedorMerc .desmaquillante, .main .gridContainerShop .contenedorMerc .exfoliante, .main .gridContainerShop .contenedorMerc .limpiador {
   width: 300px;
   height: 400px;
-  padding: 15px; }
+  padding: 15px;
+  margin-right: 20px; }
 
 .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto {
   color: black;
