@@ -10,6 +10,12 @@ body {
   font-family: 'Ibarra Real Nova', serif;
   background-color: #FFF7F2; }
 
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 0.2fr;
+  grid-template-areas: "header" "main" "footer"; }
+
 .main .section2 .titulo {
   font-size: 30px;
   color: #b3aeb3;
