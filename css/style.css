@@ -46,8 +46,8 @@ body {
   align-items: center;
   width: 350px;
   height: 500px;
-  background-color: white;
-  margin-right: 20px; }
+  padding: 15px;
+  background-color: white; }
 
 .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .main .gridContainerShop .contenedorMerc .mask .infoMask .tituloProducto, .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
   color: black;
