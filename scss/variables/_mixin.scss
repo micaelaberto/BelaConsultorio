@@ -12,4 +12,13 @@
     margin: 15px;
     margin-top: 15px;
 }
-
+ @mixin  tamanoTienda ($sizeAncho){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: $sizeAncho;
+        height: 500px;
+        padding: 15px;
+        background-color: white;
+}

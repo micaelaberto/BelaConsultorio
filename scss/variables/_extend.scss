@@ -21,16 +21,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
-%tamanoTienda{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 350px;
-    height: 500px;
-    padding: 15px;
-    background-color: white;
-}
+
 %tituloProducto{
     color: black;
     font-size: 20px;

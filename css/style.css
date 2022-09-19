@@ -39,16 +39,6 @@ body {
   flex-direction: row;
   justify-content: space-around; }
 
-.main .gridContainerShop .contenedorMerc .desmaquillante, .main .gridContainerShop .contenedorMerc .exfoliante, .main .gridContainerShop .contenedorMerc .limpiador, .main .gridContainerShop .contenedorMerc .aguaMicelar, .main .gridContainerShop .contenedorMerc .gelExfoliante, .main .gridContainerShop .contenedorMerc .hialuronico, .main .gridContainerShop .contenedorMerc .mask, .main .gridContainerShop .contenedorMerc .protector50, .main .gridContainerShop .contenedorMerc .serum {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 350px;
-  height: 500px;
-  padding: 15px;
-  background-color: white; }
-
 .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .main .gridContainerShop .contenedorMerc .mask .infoMask .tituloProducto, .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
   color: black;
   font-size: 20px;
@@ -157,47 +147,119 @@ body {
   flex-direction: column;
   align-items: center; }
   .main .gridContainerShop .contenedorMerc .desmaquillante {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .desmaquillante .imgDes {
       height: 300px;
       width: 300px; }
   .main .gridContainerShop .contenedorMerc .exfoliante {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .exfoliante .imgEx {
       height: 300px;
       width: 300px; }
   .main .gridContainerShop .contenedorMerc .limpiador {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .limpiador .imgLim {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .aguaMicelar {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .aguaMicelar .imgMicelar {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .gelExfoliante {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .gelExfoliante .imgGel {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .hialuronico {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .hialuronico .imgHial {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .mask {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .mask .imgMask {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .protector50 {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .protector50 .imgP50 {
       height: 300px;
       height: 300px; }
   .main .gridContainerShop .contenedorMerc .serum {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    background-color: white; }
     .main .gridContainerShop .contenedorMerc .serum .imgSerum {
       height: 300px;
       height: 300px; }

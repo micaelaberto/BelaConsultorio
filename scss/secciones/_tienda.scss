@@ -11,7 +11,7 @@
             align-items: center;
             .desmaquillante{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgDes{
                     height: 300px;
                     width: 300px;
@@ -30,7 +30,7 @@
             }
             .exfoliante{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgEx{
                     height: 300px;
                     width: 300px;
@@ -50,7 +50,7 @@
             }
             .limpiador{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgLim{
                     height: 300px;
                     height: 300px;
@@ -69,7 +69,7 @@
             }
             .aguaMicelar{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgMicelar{
                     height: 300px;
                     height: 300px;
@@ -88,7 +88,7 @@
             }
             .gelExfoliante{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgGel{
                     height: 300px;
                     height: 300px;
@@ -107,7 +107,7 @@
             }
             .hialuronico{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgHial{
                     height: 300px;
                     height: 300px;
@@ -126,7 +126,7 @@
             }
             .mask{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgMask{
                     height: 300px;
                     height: 300px;
@@ -145,7 +145,7 @@
             }
             .protector50{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgP50{
                     height: 300px;
                     height: 300px;
@@ -164,7 +164,7 @@
             }
             .serum{
                 margin-top: 10px;
-                @extend %tamanoTienda;
+                @include tamanoTienda (300px);
                 .imgSerum{
                     height: 300px;
                     height: 300px;
