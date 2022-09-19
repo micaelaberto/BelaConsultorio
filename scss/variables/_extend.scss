@@ -22,9 +22,14 @@
     justify-content: space-around;
 }
 %tamanoTienda{
-    width: 300px;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 500px;
     padding: 15px;
+    background-color: white;
     margin-right: 20px;
 }
 %tituloProducto{
@@ -36,4 +41,18 @@
     color: black;
     font-size: 15px;
     text-align: center;
+}
+%boton{
+    text-decoration:none;
+    display: flex;
+    font-size: 15px;
+    color:#b3aeb3;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: #FFF7F2;
+    border-color: rgb(179, 176, 176);
+    border-style: solid;
+    border-radius:35px;
+    ;
 }

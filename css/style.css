@@ -39,21 +39,39 @@ body {
   flex-direction: row;
   justify-content: space-around; }
 
-.main .gridContainerShop .contenedorMerc .desmaquillante, .main .gridContainerShop .contenedorMerc .exfoliante, .main .gridContainerShop .contenedorMerc .limpiador {
-  width: 300px;
-  height: 400px;
+.main .gridContainerShop .contenedorMerc .desmaquillante, .main .gridContainerShop .contenedorMerc .exfoliante, .main .gridContainerShop .contenedorMerc .limpiador, .main .gridContainerShop .contenedorMerc .aguaMicelar, .main .gridContainerShop .contenedorMerc .gelExfoliante, .main .gridContainerShop .contenedorMerc .hialuronico, .main .gridContainerShop .contenedorMerc .mask, .main .gridContainerShop .contenedorMerc .protector50, .main .gridContainerShop .contenedorMerc .serum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 500px;
   padding: 15px;
+  background-color: white;
   margin-right: 20px; }
 
-.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto {
+.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .main .gridContainerShop .contenedorMerc .mask .infoMask .tituloProducto, .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
   color: black;
   font-size: 20px;
   text-align: center; }
 
-.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio {
+.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio, .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .precio, .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .precio, .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .precio, .main .gridContainerShop .contenedorMerc .mask .infoMask .precio, .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .precio, .main .gridContainerShop .contenedorMerc .serum .infoSerum .precio {
   color: black;
   font-size: 15px;
   text-align: center; }
+
+.main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .main .gridContainerShop .contenedorMerc .mask .infoMask .boton, .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
+  text-decoration: none;
+  display: flex;
+  font-size: 15px;
+  color: #b3aeb3;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #FFF7F2;
+  border-color: #b3b0b0;
+  border-style: solid;
+  border-radius: 35px; }
 
 .header {
   background-color: #fac0b7d8; }
@@ -140,18 +158,48 @@ body {
   flex-direction: column;
   align-items: center; }
   .main .gridContainerShop .contenedorMerc .desmaquillante {
-    grid-area: desmaquillante; }
+    margin-top: 10px; }
     .main .gridContainerShop .contenedorMerc .desmaquillante .imgDes {
       height: 300px;
       width: 300px; }
   .main .gridContainerShop .contenedorMerc .exfoliante {
-    grid-area: exfoliante; }
+    margin-top: 10px; }
     .main .gridContainerShop .contenedorMerc .exfoliante .imgEx {
       height: 300px;
       width: 300px; }
   .main .gridContainerShop .contenedorMerc .limpiador {
-    grid-area: limpiador; }
+    margin-top: 10px; }
     .main .gridContainerShop .contenedorMerc .limpiador .imgLim {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .aguaMicelar {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .aguaMicelar .imgMicelar {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .gelExfoliante {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .gelExfoliante .imgGel {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .hialuronico {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .hialuronico .imgHial {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .mask {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .mask .imgMask {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .protector50 {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .protector50 .imgP50 {
+      height: 300px;
+      height: 300px; }
+  .main .gridContainerShop .contenedorMerc .serum {
+    margin-top: 10px; }
+    .main .gridContainerShop .contenedorMerc .serum .imgSerum {
       height: 300px;
       height: 300px; }
 
@@ -261,25 +309,7 @@ body {
   .main .gridContainerShop .contenedorMerc {
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap; }
-    .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto:hover {
-      color: blueviolet;
-      font-size: 30px; }
-    .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio:hover {
-      color: blueviolet;
-      font-size: 25px; }
-    .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto:hover {
-      color: blueviolet;
-      font-size: 30px; }
-    .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio:hover {
-      color: blueviolet;
-      font-size: 25px; }
-    .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto:hover {
-      color: blueviolet;
-      font-size: 30px; }
-    .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio:hover {
-      color: blueviolet;
-      font-size: 25px; } }
+    flex-wrap: wrap; } }
 
 @media (min-width: 780px) {
   .footer .footerCont {
