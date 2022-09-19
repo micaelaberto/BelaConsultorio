@@ -1,186 +1,191 @@
-.main{
-    .gridContainerShop{
-        .tituloTi{
-            @extend %estiloTituloPages;
-        }
-        .contenedorMerc{
-            display: flex;
-            justify-content: space-between;
-            padding: 15px;
-            flex-direction: column;
-            align-items: center;
-            .desmaquillante{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgDes{
-                    height: 300px;
-                    width: 300px;
-                }
-                .infoDes{
-                    .tituloProducto{
-                        @extend %tituloProducto;
-                    }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
-                    }
-                }
-            }
-            .exfoliante{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgEx{
-                    height: 300px;
-                    width: 300px;
-                }
-                .infoEx{
-                    .tituloProducto{
-                        @extend %tituloProducto;
-                    }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
-                    }
-                }
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
 
+    .main{
+        .gridContainerShop{
+            .tituloTi{
+                @extend %estiloTituloPages;
             }
-            .limpiador{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgLim{
-                    height: 300px;
-                    height: 300px;
-                }
-                .infoLim{
-                    .tituloProducto{
-                        @extend %tituloProducto;
+            .contenedorMerc{
+                display: flex;
+                justify-content: space-between;
+                padding: 15px;
+                flex-direction: column;
+                align-items: center;
+                .desmaquillante{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgDes{
+                        height: 300px;
+                        width: 300px;
                     }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
-                    }
-                }
-            }
-            .aguaMicelar{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgMicelar{
-                    height: 300px;
-                    height: 300px;
-                }
-                .infoMicelar{
-                    .tituloProducto{
-                        @extend %tituloProducto;
-                    }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
+                    .infoDes{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
                     }
                 }
-            }
-            .gelExfoliante{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgGel{
-                    height: 300px;
-                    height: 300px;
+                .exfoliante{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgEx{
+                        height: 300px;
+                        width: 300px;
+                    }
+                    .infoEx{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
+                    }
+
                 }
-                .infoGel{
-                    .tituloProducto{
-                        @extend %tituloProducto;
+                .limpiador{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgLim{
+                        height: 300px;
+                        height: 300px;
                     }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
-                    }
-                }
-            }
-            .hialuronico{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgHial{
-                    height: 300px;
-                    height: 300px;
-                }
-                .infoHial{
-                    .tituloProducto{
-                        @extend %tituloProducto;
-                    }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
-                    }
-                }
-            }
-            .mask{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgMask{
-                    height: 300px;
-                    height: 300px;
-                }
-                .infoMask{
-                    .tituloProducto{
-                        @extend %tituloProducto;
-                    }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
+                    .infoLim{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
                     }
                 }
-            }
-            .protector50{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgP50{
-                    height: 300px;
-                    height: 300px;
+                .aguaMicelar{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgMicelar{
+                        height: 300px;
+                        height: 300px;
+                    }
+                    .infoMicelar{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
+                    }
                 }
-                .infoP50{
-                    .tituloProducto{
-                        @extend %tituloProducto;
+                .gelExfoliante{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgGel{
+                        height: 300px;
+                        height: 300px;
                     }
-                    .precio{
-                        @extend %precioProducto;
-                    }
-                    .boton{
-                        @extend %boton;
+                    .infoGel{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
                     }
                 }
-            }
-            .serum{
-                margin-top: 10px;
-                @include tamanoTienda (300px);
-                .imgSerum{
-                    height: 300px;
-                    height: 300px;
+                .hialuronico{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgHial{
+                        height: 300px;
+                        height: 300px;
+                    }
+                    .infoHial{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
+                    }
                 }
-                .infoSerum{
-                    .tituloProducto{
-                        @extend %tituloProducto;
+                .mask{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgMask{
+                        height: 300px;
+                        height: 300px;
                     }
-                    .precio{
-                        @extend %precioProducto;
+                    .infoMask{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
                     }
-                    .boton{
-                        @extend %boton;
+                }
+                .protector50{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgP50{
+                        height: 300px;
+                        height: 300px;
+                    }
+                    .infoP50{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
+                    }
+                }
+                .serum{
+                    margin-top: 10px;
+                    @include tamanoTienda (300px);
+                    .imgSerum{
+                        height: 300px;
+                        height: 300px;
+                    }
+                    .infoSerum{
+                        .tituloProducto{
+                            @extend %tituloProducto;
+                        }
+                        .precio{
+                            @extend %precioProducto;
+                        }
+                        .boton{
+                            @extend %boton;
+                        }
                     }
                 }
             }
         }
     }
-}
+}    

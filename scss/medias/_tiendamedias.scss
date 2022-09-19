@@ -1,11 +1,196 @@
 @media (min-width: 780px) {
+    .container{
+    margin: 0;
+    max-width: 3000px;    
     .main{
-        .gridContainerShop{
-            .contenedorMerc{
-                flex-direction: row;
-                align-items: center;
-                flex-wrap: wrap;
+            .gridContainerShop{
+                .contenedorMerc{
+                    flex-direction: row;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .desmaquillante{
+                        .infoDes{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .exfoliante{
+                        .infoEx{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+    
+                    }
+                    .limpiador{
+                        .infoLim{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .aguaMicelar{
+                        .infoMicelar{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .gelExfoliante{
+                        .infoGel{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .hialuronico{
+                       .infoHial{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .mask{
+                        .infoMask{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .protector50{
+                        .infoP50{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                    .serum{
+                        .infoSerum{
+                            .boton{
+                                &:hover{
+                                    text-decoration:none;
+                                    display: flex;
+                                    font-size: 20px;
+                                    color:blueviolet;
+                                    padding-top:20px;
+                                    padding-bottom: 15px;
+                                    padding-left:35px;
+                                    padding-right:35px;
+                                    background-color: white;
+                                    border-color: rgb(179, 176, 176);
+                                    border-style: solid;
+                                    border-radius:35px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
-        }
-    }        
+        }           
+    }    
 }    
