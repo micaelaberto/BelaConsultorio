@@ -16,11 +16,6 @@
     text-align: center;
     margin: 10px;
 }
-%estiloTratamientos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 %tituloProducto{
     color: black;
@@ -33,15 +28,21 @@
     text-align: center;
 }
 %boton{
-    text-decoration:none;
+    background: #edede9;
+    border-bottom: 5px solid #d6ccc2;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #999;
+    color: grey;
+    cursor: pointer;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
-    color:#b3aeb3;
-    padding-top:10px;
-    padding-left:30px;
-    padding-right:30px;
-    background-color: #FFF7F2;
-    border-color: rgb(179, 176, 176);
-    border-style: solid;
-    border-radius:35px;
+    height: 32px;
+    padding: 20px 20px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 120px;
 }

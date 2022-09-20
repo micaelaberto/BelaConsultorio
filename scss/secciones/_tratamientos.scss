@@ -5,11 +5,12 @@
     .tratamientos{
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
         h3{
             @extend %estiloH3;
         }
         .tratamientosFaciales{
-            @extend %estiloTratamientos;
+            @include estiloTratamientos (column);
             .infoFacial{
                 @include estiloInfo (20px);
             }
@@ -18,7 +19,7 @@
             }
         }
         .tratamientosCorporales{
-            @extend %estiloTratamientos;
+            @include estiloTratamientos (column);
             .infoCorp{
                 @include estiloInfo (20px);
             }
@@ -27,7 +28,7 @@
             }
         }
         .otrosTratamientos{
-            @extend %estiloTratamientos;
+            @include estiloTratamientos (column);
             .infoOtro{
                 @include estiloInfo (20px);;
             }

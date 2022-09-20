@@ -22,3 +22,9 @@
         padding: 15px;
         background-color: white;
 }
+@mixin estiloTratamientos ($direccion){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: space-around;
+    align-items: center;
+}

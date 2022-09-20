@@ -8,9 +8,19 @@
             .navbar-brand{
                 margin: 10px;
                 padding: 10px;
-                .logo{
-                    height: 100px;
-                    width: 100px;
+                .logotipo{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .logo{
+                        height: 100px;
+                        width: 100px;
+                    }
+                    .tituloLogo{
+                        font-size: 20px;
+                        font-family: 'Ms Madi', cursive;
+                        color: grey;
+                    }    
                 }
             }
             .navbar-collapse{
@@ -18,10 +28,10 @@
                 .navbar-nav{
                     .nav-item{
                         .nav-link{
-                            color: whitesmoke;
+                            color: gray;
                             font-size: 20px;
                             &:hover{
-                                color: rgb(153, 150, 150);
+                                color: rgb(77, 76, 76);
                                 font-size: 25px;
                             }
                         }

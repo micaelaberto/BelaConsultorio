@@ -21,6 +21,9 @@
                         width: 300px;
                     }
                     .infoDes{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -29,6 +32,10 @@
                         }
                         .boton{
                             @extend %boton;
+                            align-items: center;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -40,6 +47,9 @@
                         width: 300px;
                     }
                     .infoEx{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -48,6 +58,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
 
@@ -60,6 +73,9 @@
                         height: 300px;
                     }
                     .infoLim{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -68,6 +84,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -79,6 +98,9 @@
                         height: 300px;
                     }
                     .infoMicelar{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -87,6 +109,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -98,6 +123,9 @@
                         height: 300px;
                     }
                     .infoGel{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -106,6 +134,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -117,6 +148,9 @@
                         height: 300px;
                     }
                     .infoHial{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -125,6 +159,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -136,6 +173,9 @@
                         height: 300px;
                     }
                     .infoMask{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -144,6 +184,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -155,6 +198,9 @@
                         height: 300px;
                     }
                     .infoP50{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -163,6 +209,9 @@
                         }
                         .boton{
                             @extend %boton;
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }
@@ -174,6 +223,9 @@
                         height: 300px;
                     }
                     .infoSerum{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         .tituloProducto{
                             @extend %tituloProducto;
                         }
@@ -182,6 +234,12 @@
                         }
                         .boton{
                             @extend %boton;
+                            &:hover{
+                                background: #d5bdaf;
+                            }
+                            .agregar{
+                                margin-top: 13px;
+                            }
                         }
                     }
                 }

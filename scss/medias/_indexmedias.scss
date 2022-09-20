@@ -7,8 +7,18 @@
         }
         .section2{
             .parrafoIntro{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 15px;
+                margin-right: 15px;
+        
                 .intro{
                     @include estiloParrafo (30px);
+                }
+                .imgIndex{
+                    height: 400px;
+                    width: 600px;
                 }
             }
         }

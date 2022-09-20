@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com");
 @import url("https://fonts.gstatic.com");
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet');
 * {
   padding: 0px;
   margin: 0px;
@@ -8,7 +9,7 @@
 
 body {
   font-family: 'Ibarra Real Nova', serif;
-  background-color: #FFF7F2; }
+  background-color: #faf5f0; }
 
 .gridContainer {
   display: grid;
@@ -34,11 +35,6 @@ body {
   text-align: center;
   margin: 10px; }
 
-.main .tratamientos .tratamientosFaciales, .main .tratamientos .tratamientosCorporales, .main .tratamientos .otrosTratamientos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
 .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .tituloProducto, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
   color: black;
   font-size: 20px;
@@ -50,38 +46,52 @@ body {
   text-align: center; }
 
 .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
-  text-decoration: none;
+  background: #edede9;
+  border-bottom: 5px solid #d6ccc2;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #999;
+  color: grey;
+  cursor: pointer;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ibarra Real Nova', serif;
   font-size: 15px;
-  color: #b3aeb3;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #FFF7F2;
-  border-color: #b3b0b0;
-  border-style: solid;
-  border-radius: 35px; }
+  height: 32px;
+  padding: 20px 20px;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  width: 120px; }
 
 .header {
-  background-color: #fac0b7d8; }
+  background-color: #f5ebe1; }
   .header .navbar {
-    background-color: #fac0b7d8;
+    background-color: #f5ebe1;
     padding: 0; }
     .header .navbar .container-fluid {
-      background-color: #fac0b7d8; }
+      background-color: #f5ebe1; }
       .header .navbar .container-fluid .navbar-brand {
         margin: 10px;
         padding: 10px; }
-        .header .navbar .container-fluid .navbar-brand .logo {
-          height: 100px;
-          width: 100px; }
+        .header .navbar .container-fluid .navbar-brand .logotipo {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .header .navbar .container-fluid .navbar-brand .logotipo .logo {
+            height: 100px;
+            width: 100px; }
+          .header .navbar .container-fluid .navbar-brand .logotipo .tituloLogo {
+            font-size: 20px;
+            font-family: 'Ms Madi', cursive;
+            color: grey; }
       .header .navbar .container-fluid .navbar-collapse {
         justify-content: flex-end; }
         .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
-          color: whitesmoke;
+          color: gray;
           font-size: 20px; }
           .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-            color: #999696;
+            color: #4d4c4c;
             font-size: 25px; }
 
 .main .section1 {
@@ -101,40 +111,64 @@ body {
 
 .main .section2 {
   grid-area: section2; }
-  .main .section2 .parrafoIntro .intro {
-    font-size: 20px;
-    color: #b3aeb3;
-    text-align: center;
-    margin: 15px;
-    margin-top: 15px; }
+  .main .section2 .parrafoIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; }
+    .main .section2 .parrafoIntro .intro {
+      font-size: 20px;
+      color: #b3aeb3;
+      text-align: center;
+      margin: 15px;
+      margin-top: 15px; }
+    .main .section2 .parrafoIntro .imgIndex {
+      height: 200px;
+      width: 300px; }
 
 .main .tratamientos {
   display: flex;
-  flex-direction: column; }
-  .main .tratamientos .tratamientosFaciales .infoFacial {
-    display: block;
-    width: 180px;
-    font-size: 20px;
-    color: #b3aeb3;
-    text-align: center; }
-  .main .tratamientos .tratamientosFaciales .imgFacial {
-    height: 150px; }
-  .main .tratamientos .tratamientosCorporales .infoCorp {
-    display: block;
-    width: 180px;
-    font-size: 20px;
-    color: #b3aeb3;
-    text-align: center; }
-  .main .tratamientos .tratamientosCorporales .imgCorp {
-    height: 150px; }
-  .main .tratamientos .otrosTratamientos .infoOtro {
-    display: block;
-    width: 180px;
-    font-size: 20px;
-    color: #b3aeb3;
-    text-align: center; }
-  .main .tratamientos .otrosTratamientos .imgOtro {
-    height: 150px; }
+  flex-direction: column;
+  margin-bottom: 10px; }
+  .main .tratamientos .tratamientosFaciales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .main .tratamientos .tratamientosFaciales .infoFacial {
+      display: block;
+      width: 180px;
+      font-size: 20px;
+      color: #b3aeb3;
+      text-align: center; }
+    .main .tratamientos .tratamientosFaciales .imgFacial {
+      height: 150px; }
+  .main .tratamientos .tratamientosCorporales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .main .tratamientos .tratamientosCorporales .infoCorp {
+      display: block;
+      width: 180px;
+      font-size: 20px;
+      color: #b3aeb3;
+      text-align: center; }
+    .main .tratamientos .tratamientosCorporales .imgCorp {
+      height: 150px; }
+  .main .tratamientos .otrosTratamientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .main .tratamientos .otrosTratamientos .infoOtro {
+      display: block;
+      width: 180px;
+      font-size: 20px;
+      color: #b3aeb3;
+      text-align: center; }
+    .main .tratamientos .otrosTratamientos .imgOtro {
+      height: 150px; }
 
 .main .infoPromos .proximamente {
   font-size: 20px;
@@ -163,6 +197,14 @@ body {
       .container .main .gridContainerShop .contenedorMerc .desmaquillante .imgDes {
         height: 300px;
         width: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton {
+          align-items: center; }
+          .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton .agregar {
+            margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .exfoliante {
       margin-top: 10px;
       display: flex;
@@ -176,6 +218,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .exfoliante .imgEx {
         height: 300px;
         width: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .limpiador {
       margin-top: 10px;
       display: flex;
@@ -189,6 +237,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .limpiador .imgLim {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .aguaMicelar {
       margin-top: 10px;
       display: flex;
@@ -202,6 +256,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .aguaMicelar .imgMicelar {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .gelExfoliante {
       margin-top: 10px;
       display: flex;
@@ -215,6 +275,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .gelExfoliante .imgGel {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .hialuronico {
       margin-top: 10px;
       display: flex;
@@ -228,6 +294,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .hialuronico .imgHial {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .mask {
       margin-top: 10px;
       display: flex;
@@ -241,6 +313,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .mask .imgMask {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .mask .infoMask {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .protector50 {
       margin-top: 10px;
       display: flex;
@@ -254,6 +332,12 @@ body {
       .container .main .gridContainerShop .contenedorMerc .protector50 .imgP50 {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton .agregar {
+          margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .serum {
       margin-top: 10px;
       display: flex;
@@ -267,6 +351,14 @@ body {
       .container .main .gridContainerShop .contenedorMerc .serum .imgSerum {
         height: 300px;
         height: 300px; }
+      .container .main .gridContainerShop .contenedorMerc .serum .infoSerum {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton .agregar {
+          margin-top: 13px; }
 
 .main .sectionContacto .contacto {
   text-align: center;
@@ -285,7 +377,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: #fac0b7d8;
+  background-color: #f5ebe1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -312,24 +404,41 @@ body {
     margin-bottom: 10px; }
 
 @media (min-width: 780px) {
-  .header .navbar .container-fluid .navbar-brand .logo {
-    width: 150px;
-    height: 150px; }
+  .header .navbar .container-fluid .navbar-brand .logotipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .header .navbar .container-fluid .navbar-brand .logotipo .logo {
+      height: 150px;
+      width: 150px; }
+    .header .navbar .container-fluid .navbar-brand .logotipo .tituloLogo {
+      font-size: 30px;
+      font-family: 'Ms Madi', cursive;
+      color: grey; }
   .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-size: 25px; }
     .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-      color: #999696;
+      color: #4d4d4c;
       font-size: 30px; } }
 
 @media (min-width: 780px) {
   .main .section1 .banner {
     height: 600px; }
-  .main .section2 .parrafoIntro .intro {
-    font-size: 30px;
-    color: #b3aeb3;
-    text-align: center;
-    margin: 15px;
-    margin-top: 15px; } }
+  .main .section2 .parrafoIntro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 15px; }
+    .main .section2 .parrafoIntro .intro {
+      font-size: 30px;
+      color: #b3aeb3;
+      text-align: center;
+      margin: 15px;
+      margin-top: 15px; }
+    .main .section2 .parrafoIntro .imgIndex {
+      height: 400px;
+      width: 600px; } }
 
 @media (min-width: 780px) {
   .main .tratamientos {
@@ -340,6 +449,10 @@ body {
     .main .tratamientos h3 {
       font-size: 30px; }
     .main .tratamientos .tratamientosFaciales {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       align-items: center; }
       .main .tratamientos .tratamientosFaciales .infoFacial {
         display: block;
@@ -350,6 +463,10 @@ body {
       .main .tratamientos .tratamientosFaciales .imgFacial {
         height: 200px; }
     .main .tratamientos .tratamientosCorporales {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       align-items: center; }
       .main .tratamientos .tratamientosCorporales .infoCorp {
         display: block;
@@ -360,6 +477,10 @@ body {
       .main .tratamientos .tratamientosCorporales .imgCorp {
         height: 200px; }
     .main .tratamientos .otrosTratamientos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       align-items: center; }
       .main .tratamientos .otrosTratamientos .infoOtro {
         display: block;
@@ -377,124 +498,7 @@ body {
     .container .main .gridContainerShop .contenedorMerc {
       flex-direction: row;
       align-items: center;
-      flex-wrap: wrap; }
-      .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; }
-      .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton:hover {
-        text-decoration: none;
-        display: flex;
-        font-size: 20px;
-        color: blueviolet;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: white;
-        border-color: #b3b0b0;
-        border-style: solid;
-        border-radius: 35px; } }
+      flex-wrap: wrap; } }
 
 @media (min-width: 780px) {
   .footer .footerCont {

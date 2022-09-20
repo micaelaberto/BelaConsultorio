@@ -9,6 +9,7 @@
                 font-size: 30px;
             }
             .tratamientosFaciales{
+                @include estiloTratamientos (row);
                 align-items: center;
                 .infoFacial{
                     display: block;
@@ -22,6 +23,7 @@
                 }
             }
             .tratamientosCorporales{
+                @include estiloTratamientos (row);
                 align-items: center;
                 .infoCorp{
                     display: block;
@@ -35,6 +37,7 @@
                 }
             }
             .otrosTratamientos{
+                @include estiloTratamientos (row);
                 align-items: center;
                 .infoOtro{
                     display: block;
