@@ -23,7 +23,7 @@ body {
   text-align: center;
   margin-top: 50px; }
 
-.main .tituloTr, .main .infoPromos .tituloPr, .container .main .gridContainerShop .tituloTi, .main .sectionContacto .tituloCon {
+.main .tituloTr, .main .infoPromos .tituloPr, .container .main .gridContainerShop .tituloTi {
   color: #b3aeb3;
   font-size: 40px;
   text-align: center;
@@ -203,6 +203,12 @@ body {
         align-items: center; }
         .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton {
           align-items: center; }
+          .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton:hover {
+            background: #d5bdaf; }
+          .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton:active {
+            box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+            transform: translateY(4px);
+            transition: all 0.1s ease 0s; }
           .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton .agregar {
             margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .exfoliante {
@@ -222,6 +228,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .limpiador {
@@ -241,6 +253,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .aguaMicelar {
@@ -260,6 +278,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .gelExfoliante {
@@ -279,6 +303,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .hialuronico {
@@ -298,6 +328,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .mask {
@@ -317,6 +353,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .protector50 {
@@ -336,6 +378,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton:hover {
+          background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .serum {
@@ -357,39 +405,95 @@ body {
         align-items: center; }
         .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton:hover {
           background: #d5bdaf; }
+        .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton:active {
+          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
+          transform: translateY(4px);
+          transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton .agregar {
           margin-top: 13px; }
 
-.main .sectionContacto .contacto {
-  text-align: center;
-  height: auto;
-  padding: 30px; }
-  .main .sectionContacto .contacto .boton {
-    color: white;
-    background-color: #e6ccc8d8;
-    border: #e6ccc8;
-    margin: 10px; }
-  .main .sectionContacto .contacto .check {
-    color: #b3aeb3; }
-  .main .sectionContacto .contacto input, .main .sectionContacto .contacto textarea {
-    width: 250px;
-    padding: 3px; }
+.main .sectionContacto .form {
+  width: 440px;
+  height: 540px;
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 20px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box; }
+  .main .sectionContacto .form .tituloCon {
+    margin: 10px 0;
+    padding: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c; }
+  .main .sectionContacto .form .parrafoForm {
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a; }
+    .main .sectionContacto .form .parrafoForm::before {
+      content: attr(type); }
+    .main .sectionContacto .form .parrafoForm .input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      background: none;
+      outline: none;
+      resize: none;
+      border: 0;
+      transition: all .3s;
+      border-bottom: 2px solid #bebed2; }
+      .main .sectionContacto .form .parrafoForm .input:focus {
+        border-bottom: 2px solid #78788c; }
+  .main .sectionContacto .form .formBoton {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s; }
+    .main .sectionContacto .form .formBoton:hover {
+      background: #78788c;
+      color: #fff; }
+  .main .sectionContacto .form .contForm {
+    content: 'Hi';
+    position: absolute;
+    bottom: -210px;
+    right: 10px;
+    background: #50505a;
+    color: #fff;
+    width: 440px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 10px 10px 40px -14px #000; }
+    .main .sectionContacto .form .contForm .fa-phone {
+      margin: 0 5px 0 15px; }
 
 .footer {
   grid-area: footer;
   background-color: #f5ebe1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 470px; }
+  align-items: center; }
   .footer .footerCont {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
     .footer .footerCont .mapa {
       width: 300px;
       height: 300px;
       padding: 15px; }
+    .footer .footerCont .lugar {
+      text-align: center; }
+      .footer .footerCont .lugar .txtLugar {
+        font-size: 15px;
+        color: grey; }
     .footer .footerCont .redes {
       display: flex;
       justify-content: space-evenly; }
@@ -399,9 +503,6 @@ body {
       .footer .footerCont .redes .facebook {
         width: 45px;
         height: 45px; }
-  .footer .copyright {
-    text-align: center;
-    margin-bottom: 10px; }
 
 @media (min-width: 780px) {
   .header .navbar .container-fluid .navbar-brand .logotipo {
@@ -512,14 +613,14 @@ body {
       width: 200px;
       justify-content: space-evenly; }
       .footer .footerCont .redes .instagram {
-        width: 70px;
-        height: 70px; }
+        width: 60px;
+        height: 60px; }
         .footer .footerCont .redes .instagram:hover {
-          width: 85px;
-          height: 85px; }
+          width: 75px;
+          height: 75px; }
       .footer .footerCont .redes .facebook {
-        width: 70px;
-        height: 70px; }
+        width: 60px;
+        height: 60px; }
         .footer .footerCont .redes .facebook:hover {
-          width: 85px;
-          height: 85px; } }
+          width: 75px;
+          height: 75px; } }
