@@ -6,34 +6,62 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
+        align-items: center;
         h3{
             @extend %estiloH3;
         }
         .tratamientosFaciales{
+            border: 1px solid whitesmoke;
+            box-shadow: 0px 0px 30px -15px;
+            width: 300px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background: whitesmoke;
+            border-radius: 30px;
             @include estiloTratamientos (column);
             .infoFacial{
                 @include estiloInfo (20px);
             }
             .imgFacial{
-                height: 150px;
+                .fotoFacial{
+                    height: 150px;
+                }    
             }
         }
         .tratamientosCorporales{
+            border: 1px solid whitesmoke;
+            box-shadow: 0px 0px 30px -15px;
+            width: 300px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background: whitesmoke;
+            border-radius: 30px;
             @include estiloTratamientos (column);
             .infoCorp{
                 @include estiloInfo (20px);
             }
             .imgCorp{
-                height: 150px;
+                .fotoCorp{
+                    height: 150px;
+                }    
             }
         }
         .otrosTratamientos{
+            border: 1px solid whitesmoke;
+            box-shadow: 0px 0px 30px -15px;
+            width: 300px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background: whitesmoke;
+            border-radius: 30px;
             @include estiloTratamientos (column);
             .infoOtro{
                 @include estiloInfo (20px);;
             }
             .imgOtro{
-                height: 150px;
+                .fotoOtro{
+                    height: 150px;
+                }    
             }
         }
     }

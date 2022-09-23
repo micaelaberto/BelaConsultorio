@@ -1,0 +1,63 @@
+@media (min-width: 780px){
+    .main{
+        .sectionContacto{
+            .form{
+                .contForm{
+                    bottom: -275px;
+                    right: 220px;
+                    width: 400px;
+                    font-size: 15px;
+                    .fa-phone{
+                        margin: 0 5px 0 15px;
+                        .iconoForm{
+                            height: 15px;
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}    
+@media (min-width: 980px){
+    .main{
+        .sectionContacto{
+            .form{
+                .contForm{
+                    bottom: -170px;
+                    right: 480px;
+                    width: 400px;
+                    font-size: 15px;
+                    .fa-phone{
+                        margin: 0 5px 0 15px;
+                        .iconoForm{
+                            height: 15px;
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 980px){
+    .main{
+        .sectionContacto{
+            .form{
+                .contForm{
+                    bottom: -230px;
+                    right: 430px;
+                    width: 400px;
+                    font-size: 15px;
+                    .fa-phone{
+                        margin: 0 5px 0 15px;
+                        .iconoForm{
+                            height: 15px;
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

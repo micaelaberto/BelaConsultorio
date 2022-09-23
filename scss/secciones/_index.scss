@@ -2,22 +2,24 @@
     .section1{
         grid-area: section1;
         .banner{
-            margin-top: 25px;
+            margin-top: 15px;
             height: 350px;
             background-image: url(../imagenes/imagenIndex.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            .nombre{
+        }
+        .nombre{
                 font-style: italic;
                 font-size: 50px;
                 text-align: center;
+                margin-top: -200px;
                 text-shadow: 3px 3px gray;
                 color: white;
-            }
         }
     }
     .section2{
         grid-area: section2;
+        margin-top: 100px;
         .titulo{
             @extend %estiloTitulo;
         }

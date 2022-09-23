@@ -97,20 +97,22 @@ body {
 .main .section1 {
   grid-area: section1; }
   .main .section1 .banner {
-    margin-top: 25px;
+    margin-top: 15px;
     height: 350px;
     background-image: url(../imagenes/imagenIndex.jpg);
     background-size: 100%;
     background-repeat: no-repeat; }
-    .main .section1 .banner .nombre {
-      font-style: italic;
-      font-size: 50px;
-      text-align: center;
-      text-shadow: 3px 3px gray;
-      color: white; }
+  .main .section1 .nombre {
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -200px;
+    text-shadow: 3px 3px gray;
+    color: white; }
 
 .main .section2 {
-  grid-area: section2; }
+  grid-area: section2;
+  margin-top: 100px; }
   .main .section2 .parrafoIntro {
     display: flex;
     flex-direction: column;
@@ -129,8 +131,16 @@ body {
 .main .tratamientos {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  align-items: center; }
   .main .tratamientos .tratamientosFaciales {
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 30px -15px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: whitesmoke;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -141,9 +151,16 @@ body {
       font-size: 20px;
       color: #b3aeb3;
       text-align: center; }
-    .main .tratamientos .tratamientosFaciales .imgFacial {
+    .main .tratamientos .tratamientosFaciales .imgFacial .fotoFacial {
       height: 150px; }
   .main .tratamientos .tratamientosCorporales {
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 30px -15px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: whitesmoke;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -154,9 +171,16 @@ body {
       font-size: 20px;
       color: #b3aeb3;
       text-align: center; }
-    .main .tratamientos .tratamientosCorporales .imgCorp {
+    .main .tratamientos .tratamientosCorporales .imgCorp .fotoCorp {
       height: 150px; }
   .main .tratamientos .otrosTratamientos {
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 30px -15px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: whitesmoke;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -167,7 +191,7 @@ body {
       font-size: 20px;
       color: #b3aeb3;
       text-align: center; }
-    .main .tratamientos .otrosTratamientos .imgOtro {
+    .main .tratamientos .otrosTratamientos .imgOtro .fotoOtro {
       height: 150px; }
 
 .main .infoPromos .proximamente {
@@ -415,7 +439,7 @@ body {
 .main .sectionContacto .form {
   width: 440px;
   height: 540px;
-  background-color: #e6e6e6;
+  background-color: whitesmoke;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
@@ -459,23 +483,6 @@ body {
     .main .sectionContacto .form .formBoton:hover {
       background: #78788c;
       color: #fff; }
-  .main .sectionContacto .form .contForm {
-    content: 'Hi';
-    position: absolute;
-    bottom: -210px;
-    right: 10px;
-    background: #50505a;
-    color: #fff;
-    width: 300px;
-    padding: 16px 4px 16px 0;
-    border-radius: 6px;
-    font-size: 10px;
-    box-shadow: 10px 10px 40px -14px #000; }
-    .main .sectionContacto .form .contForm .fa-phone {
-      margin: 0 5px 0 15px; }
-      .main .sectionContacto .form .contForm .fa-phone .iconoForm {
-        height: 10px;
-        width: 10px; }
 
 .footer {
   grid-area: footer;
@@ -528,6 +535,8 @@ body {
 @media (min-width: 780px) {
   .main .section1 .banner {
     height: 600px; }
+  .main .section1 .nombre {
+    margin-top: -100px; }
   .main .section2 .parrafoIntro {
     display: flex;
     flex-direction: row;
@@ -553,10 +562,17 @@ body {
     .main .tratamientos h3 {
       font-size: 30px; }
     .main .tratamientos .tratamientosFaciales {
+      border: 1px solid whitesmoke;
+      box-shadow: 0px 0px 30px -15px;
+      width: 1000px;
+      height: 400px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background: whitesmoke;
+      border-radius: 30px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      align-items: center;
       align-items: center; }
       .main .tratamientos .tratamientosFaciales .infoFacial {
         display: block;
@@ -564,9 +580,17 @@ body {
         font-size: 25px;
         color: #b3aeb3;
         text-align: center; }
-      .main .tratamientos .tratamientosFaciales .imgFacial {
+      .main .tratamientos .tratamientosFaciales .imgFacial .fotoFacial {
         height: 200px; }
     .main .tratamientos .tratamientosCorporales {
+      border: 1px solid whitesmoke;
+      box-shadow: 0px 0px 30px -15px;
+      width: 1000px;
+      height: 400px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background: whitesmoke;
+      border-radius: 30px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -578,9 +602,17 @@ body {
         font-size: 25px;
         color: #b3aeb3;
         text-align: center; }
-      .main .tratamientos .tratamientosCorporales .imgCorp {
+      .main .tratamientos .tratamientosCorporales .imgCorp .fotoCorp {
         height: 200px; }
     .main .tratamientos .otrosTratamientos {
+      border: 1px solid whitesmoke;
+      box-shadow: 0px 0px 30px -15px;
+      width: 1000px;
+      height: 400px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background: whitesmoke;
+      border-radius: 30px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -592,7 +624,7 @@ body {
         font-size: 25px;
         color: #b3aeb3;
         text-align: center; }
-      .main .tratamientos .otrosTratamientos .imgOtro {
+      .main .tratamientos .otrosTratamientos .imgOtro .fotoOtro {
         height: 200px; } }
 
 @media (min-width: 780px) {
@@ -605,12 +637,48 @@ body {
       flex-wrap: wrap; } }
 
 @media (min-width: 780px) {
+  .main .sectionContacto .form .contForm {
+    bottom: -275px;
+    right: 220px;
+    width: 400px;
+    font-size: 15px; }
+    .main .sectionContacto .form .contForm .fa-phone {
+      margin: 0 5px 0 15px; }
+      .main .sectionContacto .form .contForm .fa-phone .iconoForm {
+        height: 15px;
+        width: 15px; } }
+
+@media (min-width: 980px) {
+  .main .sectionContacto .form .contForm {
+    bottom: -170px;
+    right: 480px;
+    width: 400px;
+    font-size: 15px; }
+    .main .sectionContacto .form .contForm .fa-phone {
+      margin: 0 5px 0 15px; }
+      .main .sectionContacto .form .contForm .fa-phone .iconoForm {
+        height: 15px;
+        width: 15px; } }
+
+@media (min-width: 980px) {
+  .main .sectionContacto .form .contForm {
+    bottom: -230px;
+    right: 430px;
+    width: 400px;
+    font-size: 15px; }
+    .main .sectionContacto .form .contForm .fa-phone {
+      margin: 0 5px 0 15px; }
+      .main .sectionContacto .form .contForm .fa-phone .iconoForm {
+        height: 15px;
+        width: 15px; } }
+
+@media (min-width: 780px) {
   .footer .footerCont {
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-evenly; }
     .footer .footerCont .redes {
       display: flex;
       width: 200px;

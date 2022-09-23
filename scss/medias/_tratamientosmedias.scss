@@ -9,8 +9,15 @@
                 font-size: 30px;
             }
             .tratamientosFaciales{
+                border: 1px solid whitesmoke;
+                box-shadow: 0px 0px 30px -15px;
+                width: 1000px;
+                height: 400px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                background: whitesmoke;
+                border-radius: 30px;
                 @include estiloTratamientos (row);
-                align-items: center;
                 .infoFacial{
                     display: block;
                     width: 400px;
@@ -19,10 +26,20 @@
                     text-align: center;
                 }
                 .imgFacial{
-                    height: 200px;
+                    .fotoFacial{
+                        height: 200px;
+                    }
                 }
             }
             .tratamientosCorporales{
+                border: 1px solid whitesmoke;
+                box-shadow: 0px 0px 30px -15px;
+                width: 1000px;
+                height: 400px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                background: whitesmoke;
+                border-radius: 30px;
                 @include estiloTratamientos (row);
                 align-items: center;
                 .infoCorp{
@@ -33,10 +50,20 @@
                     text-align: center;
                 }
                 .imgCorp{
-                    height: 200px;
+                    .fotoCorp{
+                        height: 200px;
+                    }
                 }
             }
             .otrosTratamientos{
+                border: 1px solid whitesmoke;
+                box-shadow: 0px 0px 30px -15px;
+                width: 1000px;
+                height: 400px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                background: whitesmoke;
+                border-radius: 30px;
                 @include estiloTratamientos (row);
                 align-items: center;
                 .infoOtro{
@@ -47,7 +74,9 @@
                     text-align: center;
                 }
                 .imgOtro{
-                    height: 200px;
+                    .fotoOtro{
+                        height: 200px;
+                    }
                 }
             }
         }
