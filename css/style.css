@@ -23,7 +23,7 @@ body {
   text-align: center;
   margin-top: 50px; }
 
-.main .tituloTr, .main .infoPromos .tituloPr, .container .main .gridContainerShop .tituloTi {
+.main .tituloTr, .main .infoPromos .titulosPr, .container .main .gridContainerShop .tituloTi {
   color: #b3aeb3;
   font-size: 40px;
   text-align: center;
@@ -45,7 +45,7 @@ body {
   font-size: 15px;
   text-align: center; }
 
-.container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
+.main .infoPromos .promoSemanal .botonPromos, .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
   background: #edede9;
   border-bottom: 5px solid #d6ccc2;
   border-radius: 20px;
@@ -88,7 +88,7 @@ body {
       .header .navbar .container-fluid .navbar-collapse {
         justify-content: flex-end; }
         .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
-          color: gray;
+          color: grey;
           font-size: 20px; }
           .header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
             color: #4d4c4c;
@@ -194,10 +194,65 @@ body {
     .main .tratamientos .otrosTratamientos .imgOtro .fotoOtro {
       height: 150px; }
 
-.main .infoPromos .proximamente {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px; }
+.main .infoPromos .promoFacial {
+  background: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .main .infoPromos .promoFacial .tituloPromoParrafo {
+    color: grey;
+    font-size: 25px;
+    text-align: center; }
+  .main .infoPromos .promoFacial .promoParrafo {
+    color: #b3aeb3;
+    font-size: 20px;
+    text-align: center; }
+
+.main .infoPromos .promoBancaria {
+  background: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px; }
+  .main .infoPromos .promoBancaria .tituloPromoBancaria {
+    color: grey;
+    font-size: 25px;
+    text-align: center; }
+  .main .infoPromos .promoBancaria .parrafoBancaria {
+    color: #b3aeb3;
+    font-size: 20px;
+    text-align: center; }
+  .main .infoPromos .promoBancaria .iconosBancaria {
+    display: flex;
+    justify-content: space-evenly; }
+
+.main .infoPromos .promoSemanal {
+  background: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center; }
+  .main .infoPromos .promoSemanal .promoTituloSemanal {
+    color: grey;
+    font-size: 25px;
+    text-align: center; }
+  .main .infoPromos .promoSemanal .parrafoSemanal {
+    color: #b3aeb3;
+    font-size: 20px;
+    text-align: center; }
 
 .container {
   padding-left: 0px;
