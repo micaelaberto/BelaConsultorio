@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            padding: 10px;
             .tituloPromoParrafo{
                 color: grey;
                 font-size: 25px;
@@ -33,6 +34,7 @@
             flex-direction: column;
             justify-content: space-around;
             margin-top: 20px;
+            padding: 10px;
             .tituloPromoBancaria{
                 color: grey;
                 font-size: 25px;
@@ -59,6 +61,7 @@
             justify-content: space-around;
             margin-top: 20px;
             align-items: center;
+            padding: 10px;
             .promoTituloSemanal{
                 color: grey;
                 font-size: 25px;
@@ -71,6 +74,7 @@
             }
             .botonPromos{
                 @extend %boton;
+                margin-bottom: 5px;
                 .suscripcion{
                     font-size: 15px;
                     text-decoration: none;

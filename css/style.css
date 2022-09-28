@@ -206,7 +206,8 @@ body {
   height: 120px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 10px; }
   .main .infoPromos .promoFacial .tituloPromoParrafo {
     color: grey;
     font-size: 25px;
@@ -225,7 +226,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding: 10px; }
   .main .infoPromos .promoBancaria .tituloPromoBancaria {
     color: grey;
     font-size: 25px;
@@ -248,7 +250,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
   margin-top: 20px;
-  align-items: center; }
+  align-items: center;
+  padding: 10px; }
   .main .infoPromos .promoSemanal .promoTituloSemanal {
     color: grey;
     font-size: 25px;
@@ -257,10 +260,12 @@ body {
     color: #b3aeb3;
     font-size: 20px;
     text-align: center; }
-  .main .infoPromos .promoSemanal .botonPromos .suscripcion {
-    font-size: 15px;
-    text-decoration: none;
-    color: #b3aeb3; }
+  .main .infoPromos .promoSemanal .botonPromos {
+    margin-bottom: 5px; }
+    .main .infoPromos .promoSemanal .botonPromos .suscripcion {
+      font-size: 15px;
+      text-decoration: none;
+      color: #b3aeb3; }
 
 .container {
   padding-left: 0px;
