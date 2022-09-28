@@ -71,6 +71,11 @@
             }
             .botonPromos{
                 @extend %boton;
+                .suscripcion{
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: $colorFuente;
+                }    
             }
         }
         

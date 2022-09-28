@@ -253,6 +253,10 @@ body {
     color: #b3aeb3;
     font-size: 20px;
     text-align: center; }
+  .main .infoPromos .promoSemanal .botonPromos .suscripcion {
+    font-size: 15px;
+    text-decoration: none;
+    color: #b3aeb3; }
 
 .container {
   padding-left: 0px;
