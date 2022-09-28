@@ -514,6 +514,69 @@ body {
         width: 45px;
         height: 45px; }
 
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  display: flex; }
+  .popup .contenedorPopup {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%; }
+    .popup .contenedorPopup .tituloPopup {
+      text-align: center;
+      font-size: 30px;
+      color: #b3aeb3; }
+    .popup .contenedorPopup .parrafoPopup {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #b3aeb3; }
+    .popup .contenedorPopup .botones {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-evenly; }
+      .popup .contenedorPopup .botones .input {
+        height: 30px;
+        width: 200px;
+        border-radius: 10px; }
+      .popup .contenedorPopup .botones .botonPopup {
+        background: #edede9;
+        border-bottom: 5px solid #d6ccc2;
+        border-radius: 20px;
+        box-shadow: 6px 6px 6px #999;
+        color: grey;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 10px;
+        height: 30px;
+        padding: 20px 20px;
+        text-align: center;
+        transition: all 0.2s ease 0s;
+        width: 100px; }
+    .popup .contenedorPopup .close {
+      position: absolute;
+      top: .5rem;
+      right: 1rem;
+      font-size: 40px;
+      text-decoration: none; }
+
 @media (min-width: 780px) {
   .header .navbar .container-fluid .navbar-brand .logotipo {
     display: flex;
