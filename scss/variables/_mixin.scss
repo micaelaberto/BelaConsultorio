@@ -4,6 +4,7 @@
     font-size: $sizeLetra;
     color: $colorFuente;
     text-align: center;
+    padding: 10px;
 }
 @mixin estiloParrafo ($sizeLetra){
     font-size: $sizeLetra;

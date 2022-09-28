@@ -35,17 +35,17 @@ body {
   text-align: center;
   margin: 10px; }
 
-.container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .tituloProducto, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
+.container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .tituloProducto, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .tituloProducto, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .tituloProducto, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .tituloProducto, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .tituloProducto, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .tituloProducto, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .tituloProducto, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .tituloProducto {
   color: black;
   font-size: 20px;
   text-align: center; }
 
-.container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .precio, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .precio, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .precio, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .precio, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .precio, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .precio {
+.container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .precio, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .precio, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .precio, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .precio, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .precio, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .precio, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .precio, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .precio {
   color: black;
   font-size: 15px;
   text-align: center; }
 
-.main .infoPromos .promoSemanal .botonPromos, .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
+.main .infoPromos .promoSemanal .botonPromos, .container .main .gridContainerShop .contenedorMerc .desmaquillante .infoDes .boton, .container .main .gridContainerShop .contenedorMerc .exfoliante .infoEx .boton, .container .main .gridContainerShop .contenedorMerc .limpiador .infoLim .boton, .container .main .gridContainerShop .contenedorMerc .aguaMicelar .infoMicelar .boton, .container .main .gridContainerShop .contenedorMerc .gelExfoliante .infoGel .boton, .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton, .container .main .gridContainerShop .contenedorMerc .protector50 .infoP50 .boton, .container .main .gridContainerShop .contenedorMerc .serum .infoSerum .boton {
   background: #edede9;
   border-bottom: 5px solid #d6ccc2;
   border-radius: 20px;
@@ -117,7 +117,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    padding: 10px; }
     .main .section2 .parrafoIntro .intro {
       font-size: 20px;
       color: #b3aeb3;
@@ -150,7 +151,8 @@ body {
       width: 180px;
       font-size: 20px;
       color: #b3aeb3;
-      text-align: center; }
+      text-align: center;
+      padding: 10px; }
     .main .tratamientos .tratamientosFaciales .imgFacial .fotoFacial {
       height: 150px; }
   .main .tratamientos .tratamientosCorporales {
@@ -170,7 +172,8 @@ body {
       width: 180px;
       font-size: 20px;
       color: #b3aeb3;
-      text-align: center; }
+      text-align: center;
+      padding: 10px; }
     .main .tratamientos .tratamientosCorporales .imgCorp .fotoCorp {
       height: 150px; }
   .main .tratamientos .otrosTratamientos {
@@ -190,7 +193,8 @@ body {
       width: 180px;
       font-size: 20px;
       color: #b3aeb3;
-      text-align: center; }
+      text-align: center;
+      padding: 10px; }
     .main .tratamientos .otrosTratamientos .imgOtro .fotoOtro {
       height: 150px; }
 
@@ -232,7 +236,7 @@ body {
     text-align: center; }
   .main .infoPromos .promoBancaria .iconosBancaria {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: center; }
 
 .main .infoPromos .promoSemanal {
   background: white;
@@ -418,31 +422,6 @@ body {
           transform: translateY(4px);
           transition: all 0.1s ease 0s; }
         .container .main .gridContainerShop .contenedorMerc .hialuronico .infoHial .boton .agregar {
-          margin-top: 13px; }
-    .container .main .gridContainerShop .contenedorMerc .mask {
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      width: 300px;
-      height: 500px;
-      padding: 15px;
-      background-color: white; }
-      .container .main .gridContainerShop .contenedorMerc .mask .imgMask {
-        height: 300px;
-        height: 300px; }
-      .container .main .gridContainerShop .contenedorMerc .mask .infoMask {
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
-        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton:hover {
-          background: #d5bdaf; }
-        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton:active {
-          box-shadow: 2px 2px 2px grey, 0px 0px 35px 0px grey;
-          transform: translateY(4px);
-          transition: all 0.1s ease 0s; }
-        .container .main .gridContainerShop .contenedorMerc .mask .infoMask .boton .agregar {
           margin-top: 13px; }
     .container .main .gridContainerShop .contenedorMerc .protector50 {
       margin-top: 10px;
